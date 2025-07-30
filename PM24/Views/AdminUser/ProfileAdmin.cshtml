@@ -1,0 +1,28 @@
+@model PM24.Models.Admin.AdminUserDto
+
+<h2>Личный кабинет администратора</h2>
+<div>
+    <b>ФИО:</b>>@Model.FullName
+</div>
+<div>
+    <b>Email:</b>@Model.Email
+</div>
+<div>
+    <b>Телефон:</b>@Model.PhoneNumber
+</div>
+<div>
+    <b>Дата регистрации:</b>@Model.CreatedAt?.ToString("dd.MM.yyyy HH:mm")
+</div>
+<div>
+    <b>Последний вход:</b>@Model.LastLogin?.ToString("dd.MM.yyyy HH:mm")
+</div>
+<div>
+    <b>Активен:</b>@(Model.IsActive ? "Да" : "Нет")
+</div>
+
+<hr />
+<div>
+<a href="@Url.Action("Edit", "AdminUser")">Редактировать профиль</a>
+  <!-- Кнопка для выхода, если авторизация реализована -->
+  <a href="@Url.Action("Logout", "Account")"></a>
+</div>
