@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Vc2VyL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/aleksandrsamojlenko/Desktop/PM24/PM24/Views/AdminUser/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Vc2VyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/aleksandrsamojlenko/Desktop/PM24/PM24/Views/AdminUser/ProfileAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Vc2VyL1Byb2ZpbGVBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

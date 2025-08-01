@@ -1,0 +1,27 @@
+@model PM24.Models.Admin.AdminUserDto
+
+<h2>Редактирование профиля администратора</h2>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label>ФИО:</label>
+        <input asp-for="FullName" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label>Телефон:</label>
+        <input asp-for="PhoneNumber" />
+    </div>
+    <div>
+        <label>Активен:</label>
+        <input type="checkbox" asp-for="IsActive" />
+    </div>
+    
+    <button type="submit">Сохранить</button>
+    <a href="@Url.Action("ProfileAdmin", "AdminUser", new {id = Model.Id})">Отмена</a>
+    <div>TempData: @TempData["Message"]</div>
+
+</form>

@@ -147,6 +147,7 @@
 /Users/aleksandrsamojlenko/Desktop/PM24/PM24/obj/Debug/net9.0/PM24.MvcApplicationPartsAssemblyInfo.cache
 /Users/aleksandrsamojlenko/Desktop/PM24/PM24/obj/Debug/net9.0/PM24.RazorAssemblyInfo.cache
 /Users/aleksandrsamojlenko/Desktop/PM24/PM24/obj/Debug/net9.0/PM24.RazorAssemblyInfo.cs
+/Users/aleksandrsamojlenko/Desktop/PM24/PM24/obj/Debug/net9.0/PM24.sourcelink.json
 /Users/aleksandrsamojlenko/Desktop/PM24/PM24/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/aleksandrsamojlenko/Desktop/PM24/PM24/obj/Debug/net9.0/scopedcss/bundle/PM24.styles.css
 /Users/aleksandrsamojlenko/Desktop/PM24/PM24/obj/Debug/net9.0/scopedcss/projectbundle/PM24.bundle.scp.css

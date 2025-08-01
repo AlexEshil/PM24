@@ -1,6 +1,11 @@
 @model PM24.Models.Admin.AdminUserDto
 
 <h2>Личный кабинет администратора</h2>
+@if(TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"] </div>
+}
+
 <div>
     <b>ФИО:</b>>@Model.FullName
 </div>
@@ -19,10 +24,10 @@
 <div>
     <b>Активен:</b>@(Model.IsActive ? "Да" : "Нет")
 </div>
-
+<div>ID: @Model.Id</div>
 <hr />
 <div>
-<a href="@Url.Action("Edit", "AdminUser")">Редактировать профиль</a>
+<a href="@Url.Action("Edit", "AdminUser", new {id = Model.Id })">Редактировать профиль</a>
   <!-- Кнопка для выхода, если авторизация реализована -->
   <a href="@Url.Action("Logout", "Account")"></a>
 </div>
